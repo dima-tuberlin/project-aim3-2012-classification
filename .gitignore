@@ -3,15 +3,3 @@ online-classification-pacts/.classpath
 online-classification-pacts/.settings/
 online-classification-pacts/bin/
 online-classification-pacts/target/
-online-classification-wikistream/.project
-online-classification-wikistream/.classpath
-online-classification-wikistream/.settings/
-online-classification-wikistream/node_modules
-online-classification-wikistream/config.json
-online-classification-wikistream/*.log
-socket.io-java-client/.project
-socket.io-java-client/.classpath
-socket.io-java-client/.settings/
-socket.io-java-client/bin/
-socket.io-java-client/jar/
-socket.io-java-client/target/
