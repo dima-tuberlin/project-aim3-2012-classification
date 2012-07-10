@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>online-classification-pacts</artifactId>
+	<name>Online Classification PACTs</name>
+
+	<parent>
+		<groupId>de.tuberlin.dima</groupId>
+		<artifactId>online-classification</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>eu.stratosphere</groupId>
+			<artifactId>pact-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>eu.stratosphere</groupId>
+			<artifactId>pact-clients</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+		<!-- Logback logging framework -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+
+		<!-- Bridge JUL logging to SLF4J (Route socket.io-java-client logs through 
+			Logback) -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+		</dependency>
+
+		<!-- JAXB for XML handling + XSD2Java generation -->
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+		</dependency>
+
+		<!-- socket.io-java-client IF it works as websocket client -->
+		<!-- TODO This is currently a custom made POM which is not officially published 
+			to any maven rep -->
+		<dependency>
+			<groupId>gottox</groupId>
+			<artifactId>socket.io-java-client</artifactId>
+		</dependency>
+
+		<!-- Jedis as Java Redis client -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+
+			<!-- JAXB for XSD2Java code generation according to Wikipedia dump format -->
+			<!-- Please see http://confluence.highsource.org/display/MJIIP/User+Guide#UserGuide-IntegrationwithM2Eclipse 
+				for how to integrate with m2eclipse -->
+			<plugin>
+				<groupId>org.jvnet.jaxb2.maven2</groupId>
+				<artifactId>maven-jaxb2-plugin</artifactId>
+				<version>0.8.1</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<!-- Changes the default schema directory -->
+					<schemaIncludes>
+						<include>export-0.7.xsd</include>
+					</schemaIncludes>
+				</configuration>
+			</plugin>
+
+			<!-- JAR plugin generated Stratosphere job(s) for "mvn package" -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+
+					<!-- WikipediaDumpParser -->
+					<execution>
+						<id>WikipediaDumpParser</id>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+
+						<configuration>
+							<classifier>WikipediaDumpParser</classifier>
+
+							<archive>
+								<manifestEntries>
+									<Pact-Assembler-Class>de.tuberlin.dima.aim3.oc.WikipediaDumpParser</Pact-Assembler-Class>
+								</manifestEntries>
+							</archive>
+
+							<includes>
+								<include>de/tuberlin/dima/aim3/oc/**/**.class</include>
+								<include>org/mediawiki/xml/export_0/**/**.class</include>
+							</includes>
+						</configuration>
+					</execution>
+
+					<!-- WikipediaDumpAnalyzer -->
+					<execution>
+						<id>WikipediaDumpAnalyzer</id>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+
+						<configuration>
+							<classifier>WikipediaDumpAnalyzer</classifier>
+
+							<archive>
+								<manifestEntries>
+									<Pact-Assembler-Class>de.tuberlin.dima.aim3.oc.WikipediaRevisionAnalyzer</Pact-Assembler-Class>
+								</manifestEntries>
+							</archive>
+
+							<includes>
+								<include>de/tuberlin/dima/aim3/oc/**/**.class</include>
+							</includes>
+						</configuration>
+					</execution>
+
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

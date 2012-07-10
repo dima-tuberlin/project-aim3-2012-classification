@@ -1,0 +1,91 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd"
+	version="0.7" xml:lang="en">
+	<siteinfo>
+		<sitename>Wikipedia</sitename>
+		<base>http://en.wikipedia.org/wiki/Main_Page</base>
+		<generator>MediaWiki 1.20wmf1</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">Media</namespace>
+			<namespace key="-1" case="first-letter">Special</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">Talk</namespace>
+			<namespace key="2" case="first-letter">User</namespace>
+			<namespace key="3" case="first-letter">User talk</namespace>
+			<namespace key="4" case="first-letter">Wikipedia</namespace>
+			<namespace key="5" case="first-letter">Wikipedia talk</namespace>
+			<namespace key="6" case="first-letter">File</namespace>
+			<namespace key="7" case="first-letter">File talk</namespace>
+			<namespace key="8" case="first-letter">MediaWiki</namespace>
+			<namespace key="9" case="first-letter">MediaWiki talk</namespace>
+			<namespace key="10" case="first-letter">Template</namespace>
+			<namespace key="11" case="first-letter">Template talk</namespace>
+			<namespace key="12" case="first-letter">Help</namespace>
+			<namespace key="13" case="first-letter">Help talk</namespace>
+			<namespace key="14" case="first-letter">Category</namespace>
+			<namespace key="15" case="first-letter">Category talk</namespace>
+			<namespace key="100" case="first-letter">Portal</namespace>
+			<namespace key="101" case="first-letter">Portal talk</namespace>
+			<namespace key="108" case="first-letter">Book</namespace>
+			<namespace key="109" case="first-letter">Book talk</namespace>
+		</namespaces>
+	</siteinfo>
+	<page>
+		<title>Æthelberht of Kent</title>
+		<ns>0</ns>
+		<id>9941</id>
+		<revision>
+			<id>146293</id>
+			<timestamp>2002-02-25T15:51:15Z</timestamp>
+			<contributor>
+				<username>Conversion script</username>
+				<id>0</id>
+			</contributor>
+			<minor />
+			<comment>Automated conversion</comment>
+			<text xml:space="preserve">'''Ethelbert''', king of Kent (b.[[552]] d.[[616]]) was the son of Eormenric whom he succeeded as king of Kent in [[560]] AD 
+
+He attempted at one stage to wrest the position of [[Bretwalda]] from Ceawlin of Wessex but was unsuccesful. His standing was advanced by his marriage with Bertha, daughter of Charibert, king of the [[Franks]], and after Ceawlin's death he succeeded in becoming Bretwalda.
+
+The influence of Bertha, who had brought a Frankish priest with her as chaplain, may have led to the invitation to [[Pope Gregory I]] to send missionaries from Rome.  [[Augustine of Canterbury|Augustine]] arrived in Canterbury in 596.  
+
+He was later [[Canonization of Saints|canonised]].
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>186070</id>
+			<timestamp>2002-08-09T04:20:51Z</timestamp>
+			<contributor>
+				<ip>217.168.172.202</ip>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">'''Ethelbert''', king of Kent (b.[[552]] d.[[616]]) was the son of Eormenric whom he succeeded as king of Kent in [[560]] AD 
+
+He attempted at one stage to wrest the position of [[Bretwalda]] from Ceawlin of Wessex but was unsuccessful. His standing was advanced by his marriage with Bertha, daughter of Charibert, king of the [[Franks]], and after Ceawlin's death he succeeded in acquiring Bretwalda.
+
+The influence of Bertha, who had brought a Frankish priest with her as chaplain, may have led to the invitation to [[Pope Gregory I]] to send missionaries from Rome.  [[Augustine of Canterbury|Augustine]] arrived in Canterbury in 596.  
+
+He was later [[Canonization of Saints|canonised]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>186070</id>
+			<timestamp>2002-08-09T04:20:51Z</timestamp>
+			<contributor>
+				<ip>217.168.172.202</ip>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">'''Ethelbert''', king of Kent (b.[[552]] d.[[616]]) was the son of Eormenric whom he succeeded as king of Kent in [[560]] AD 
+
+He attempted at one stage to wrest the position of [[Bretwalda]] from Ceawlin of Wessex but was unsuccessful. His standing was advanced by his marriage with Bertha, daughter of Charibert, king of the [[Franks]], and after Ceawlin's death he succeeded in acquiring Bretwalda.
+
+The influence of Bertha, who had brought a Frankish priest with her as chaplain, may have led to the invitation to [[Pope Gregory I]] to send missionaries from Rome.  [[Augustine of Canterbury|Augustine]] arrived in Canterbury in 596.  
+
+He was later [[Canonization of Saints|canonised]].</text>
+			<sha1 />
+		</revision>
+	</page>
+</mediawiki>

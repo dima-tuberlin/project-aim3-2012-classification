@@ -1,0 +1,819 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.7/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.7/ http://www.mediawiki.org/xml/export-0.7.xsd"
+	version="0.7" xml:lang="en">
+	<siteinfo>
+		<sitename>Wikipedia</sitename>
+		<base>http://en.wikipedia.org/wiki/Main_Page</base>
+		<generator>MediaWiki 1.20wmf1</generator>
+		<case>first-letter</case>
+		<namespaces>
+			<namespace key="-2" case="first-letter">Media</namespace>
+			<namespace key="-1" case="first-letter">Special</namespace>
+			<namespace key="0" case="first-letter" />
+			<namespace key="1" case="first-letter">Talk</namespace>
+			<namespace key="2" case="first-letter">User</namespace>
+			<namespace key="3" case="first-letter">User talk</namespace>
+			<namespace key="4" case="first-letter">Wikipedia</namespace>
+			<namespace key="5" case="first-letter">Wikipedia talk</namespace>
+			<namespace key="6" case="first-letter">File</namespace>
+			<namespace key="7" case="first-letter">File talk</namespace>
+			<namespace key="8" case="first-letter">MediaWiki</namespace>
+			<namespace key="9" case="first-letter">MediaWiki talk</namespace>
+			<namespace key="10" case="first-letter">Template</namespace>
+			<namespace key="11" case="first-letter">Template talk</namespace>
+			<namespace key="12" case="first-letter">Help</namespace>
+			<namespace key="13" case="first-letter">Help talk</namespace>
+			<namespace key="14" case="first-letter">Category</namespace>
+			<namespace key="15" case="first-letter">Category talk</namespace>
+			<namespace key="100" case="first-letter">Portal</namespace>
+			<namespace key="101" case="first-letter">Portal talk</namespace>
+			<namespace key="108" case="first-letter">Book</namespace>
+			<namespace key="109" case="first-letter">Book talk</namespace>
+		</namespaces>
+	</siteinfo>
+	<page>
+		<title>Erwin Schrödinger</title>
+		<ns>0</ns>
+		<id>9942</id>
+		<revision>
+			<id>107333</id>
+			<timestamp>2002-02-25T15:51:15Z</timestamp>
+			<contributor>
+				<username>Conversion script</username>
+				<id>0</id>
+			</contributor>
+			<minor />
+			<comment>Automated conversion</comment>
+			<text xml:space="preserve">[[Austria|Austrian]] [[physicist]] ([[August 12]] [[1887]] - [[January 4]] [[1961]]) famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+----
+'''External links:'''
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249793</id>
+			<timestamp>2001-10-17T17:40:39Z</timestamp>
+			<contributor>
+				<username>Bjorn Elenfors</username>
+				<id>0</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for [[Schrodinger wave equation]]. 
+
+
+
+
+
+----
+
+
+
+* [http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html] A page about Erwin Schrodinger.
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249794</id>
+			<timestamp>2001-10-17T18:04:55Z</timestamp>
+			<contributor>
+				<username>AxelBoldt</username>
+				<id>2</id>
+			</contributor>
+			<comment>Show URLs to make print version useful.</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+
+
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249795</id>
+			<timestamp>2001-12-12T02:40:16Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+He is the owner of [[Schrodinger's cat|Schrödinger's cat]].
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249796</id>
+			<timestamp>2001-12-12T02:41:19Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+He is the owner of [[Schrodinger's cat]].
+
+
+
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249797</id>
+			<timestamp>2001-12-12T02:41:39Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+He is the owner of [[Schrodingers cat]].
+
+
+
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249798</id>
+			<timestamp>2001-12-12T02:41:58Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+He is the owner of [[Schrodinger\'s cat]].
+
+
+
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>249799</id>
+			<timestamp>2001-12-12T02:43:13Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">&lt;b&gt;Erwin Schrödinger&lt;/b&gt; 1887 - 1961.
+
+
+
+Austrian scientist, famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger wave equation|Schr&amp;ouml;dinger wave equation]]. 
+
+
+
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+
+
+----
+
+'''External links:'''
+
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>311947</id>
+			<timestamp>2002-06-28T01:24:16Z</timestamp>
+			<contributor>
+				<username>CYD</username>
+				<id>45</id>
+			</contributor>
+			<minor />
+			<comment>*</comment>
+			<text xml:space="preserve">[[Austria|Austrian]] [[physicist]] ([[August 12]] [[1887]] - [[January 4]] [[1961]]) famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]]. 
+
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+----
+'''External links:'''
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>314888</id>
+			<timestamp>2002-09-24T23:46:41Z</timestamp>
+			<contributor>
+				<username>Mrwojo</username>
+				<id>4135</id>
+			</contributor>
+			<minor />
+			<comment>Stub notice</comment>
+			<text xml:space="preserve">''This article is a [[Wikipedia:The perfect stub article|stub]]. You can [[Wikipedia:Welcome, newcomers|help Wikipedia]] by [[Wikipedia:Find or fix a stub|fixing it]].'' 
+
+'''Erwin Schrödinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]]. 
+
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+==== External Links ====
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>361622</id>
+			<timestamp>2002-09-26T01:16:29Z</timestamp>
+			<contributor>
+				<username>Mrwojo</username>
+				<id>4135</id>
+			</contributor>
+			<minor />
+			<comment>Fixed heading lvl</comment>
+			<text xml:space="preserve">''This article is a [[Wikipedia:The perfect stub article|stub]]. You can [[Wikipedia:Welcome, newcomers|help Wikipedia]] by [[Wikipedia:Find or fix a stub|fixing it]].'' 
+
+'''Erwin Schrödinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]]. 
+
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+== External Links ==
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>361624</id>
+			<timestamp>2002-10-16T02:22:44Z</timestamp>
+			<contributor>
+				<ip>193.170.89.157</ip>
+			</contributor>
+			<comment>Biography</comment>
+			<text xml:space="preserve">'''Erwin Schr&amp;ouml;dinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]].   [[Nobel Prize]] Winner 1933 &lt;br&gt;
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+Born Aug.12, 1887 Vienna (Erdberg), &lt;br&gt;
+Father: Rudolf Schr&amp;ouml;dinger, factory owner, Botanist&lt;br&gt;
+Mother: Georgine Emilia Brenda, d. o Alexander Bauer,  Professor of Chemistry,k.u.k. [[Technische Hochschule]] Vienna]]&lt;br&gt;
+1898 Akademisches Gymnasium&lt;br&gt;
+1906-10 Studiied in Vienna ([[Franz Serafin Exner]] 
+(1849 - 1926), [[Fritz Hasen&amp;ouml;hrl
+]] (1874 - 1915), experimental work with [[Kohlrausch]]) &lt;br&gt;
+1911 Assistent of Exner&lt;br&gt;
+1914 Habilitation &lt;br&gt;
+1914-18 war participation (G&amp;ouml;rz, Duino, Sistiana,Prosecco,Vienna)&lt;br&gt;
+6. April 1920 marries Annemarie Bertel.&lt;br&gt;
+1920 Assistent of [[Max Wien]], Jena&lt;br&gt;
+1920 Sept. a.o.Prof. Stuttgart&lt;br&gt;
+1921  o.Prof. Breslau, &lt;br&gt;
+1922 Z&amp;uuml;rich&lt;br&gt;
+1926 Annalen der Physik :  &quot;Quantisierung als Eigenwertproblem&quot;.(Quantisation as Eigen Value Problem). Schr&amp;ouml;dingers wave-mechanics/-equation&lt;br&gt;
+1927 Follows [[Max Planck]] in Berlin Humboldt-University&lt;br&gt;
+1933  term limited: Fellow of Magdalen College, University of Oxford
+1933 Nobel Prize together with [[Paul Adrien Maurice Dirac]]&lt;br&gt;
+1934 Lectures at Princeton University (permanent position not accepted)&lt;br&gt;
+1936 University [[Graz]],[Austria]]&lt;br&gt;
+1938 Problems due to leaving Germany 1933 and known preferences, search warrants, investigations&lt;br&gt;
+Via Italy/Swizzerland to [[Oxford]] - university Ghent. &lt;br&gt;
+Advanced Studies in Dublin, Director of the School for Theoretical Physics.
+Further (50) publications on various topics. Attempts towards a unified field theory, &lt;br&gt;
+1944 What is Life? (Negentropie, concepts for genetic code) &lt;br&gt;
+In Dublin  until retirement 1955. &lt;br&gt;
+Returns to Vienna (chair ad personam).&lt;br&gt; 
+In a main lecture during the World Power Conference he refuses to speak on nuclear energy because of his scepticism about it. (he gave a philosophical lecture).&lt;br&gt;
+Died: Jan 4, 1961 in Vienna (high age tuberculosis). Left widow Anny. Buried in Alpbach ([[Austria]]).&lt;br&gt;
+
+
+== External Links ==
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, &lt;br&gt; http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+http://www.zbp.univie.ac.at/schrodinger/bio/bio1.htm &lt;br&gt;
+http://www.nobel.se/physics/laureates/1933/schrodinger-bio.html &lt;br&gt;</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>361626</id>
+			<timestamp>2002-10-16T02:26:11Z</timestamp>
+			<contributor>
+				<ip>193.170.89.157</ip>
+			</contributor>
+			<comment>biography</comment>
+			<text xml:space="preserve">'''Erwin Schr&amp;ouml;dinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]].   [[Nobel Prize]] Winner 1933 &lt;br&gt;
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+Born Aug.12, 1887 Vienna (Erdberg), &lt;br&gt;
+Father: Rudolf Schr&amp;ouml;dinger, factory owner, Botanist&lt;br&gt;
+Mother: Georgine Emilia Brenda, d. o Alexander Bauer,  Professor of Chemistry,k.u.k. [[Technische Hochschule]] Vienna]]&lt;br&gt;
+1898 Akademisches Gymnasium&lt;br&gt;
+1906-10 Studied in Vienna ([[Franz Serafin Exner]] 
+(1849 - 1926), [[Fritz Hasen&amp;ouml;hrl
+]] (1874 - 1915), experimental work with [[Kohlrausch]]) &lt;br&gt;
+1911 Assistent of Exner&lt;br&gt;
+1914 Habilitation &lt;br&gt;
+1914-18 war participation (G&amp;ouml;rz, Duino, Sistiana,Prosecco,Vienna)&lt;br&gt;
+1920, April 6, marries Annemarie Bertel.&lt;br&gt;
+1920 Assistent of [[Max Wien]], Jena&lt;br&gt;
+1920 Sept. a.o.Prof. Stuttgart&lt;br&gt;
+1921  o.Prof. Breslau, &lt;br&gt;
+1922 Z&amp;uuml;rich&lt;br&gt;
+1926 Annalen der Physik :  &quot;Quantisierung als Eigenwertproblem&quot;.(Quantisation as Eigen Value Problem). Schr&amp;ouml;dingers wave-mechanics/-equation&lt;br&gt;
+1927 Follows [[Max Planck]] in Berlin Humboldt-University&lt;br&gt;
+1933  term limited: Fellow of Magdalen College, University of Oxford
+1933 Nobel Prize together with [[Paul Adrien Maurice Dirac]]&lt;br&gt;
+1934 Lectures at Princeton University (permanent position not accepted)&lt;br&gt;
+1936 University [[Graz]],[Austria]]&lt;br&gt;
+1938 Problems due to leaving Germany 1933 and known preferences, search warrants, investigations&lt;br&gt;
+Via Italy/Swizzerland to [[Oxford]] - university Ghent. &lt;br&gt;
+Advanced Studies in Dublin, Director of the School for Theoretical Physics.
+Further (50) publications on various topics. Attempts towards a unified field theory, &lt;br&gt;
+1944 What is Life? (Negentropie, concepts for genetic code) &lt;br&gt;
+In Dublin  until retirement 1955. &lt;br&gt;
+Returns to Vienna (chair ad personam).&lt;br&gt; 
+In a main lecture during the World Power Conference he refuses to speak on nuclear energy because of his scepticism about it. (he gave a philosophical lecture).&lt;br&gt;
+Died: Jan 4, 1961 in Vienna (high age tuberculosis). Left widow Anny. Buried in Alpbach ([[Austria]]).&lt;br&gt;
+
+
+== External Links ==
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, &lt;br&gt; http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+http://www.zbp.univie.ac.at/schrodinger/bio/bio1.htm &lt;br&gt;
+http://www.nobel.se/physics/laureates/1933/schrodinger-bio.html &lt;br&gt;</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>361675</id>
+			<timestamp>2002-10-16T02:29:17Z</timestamp>
+			<contributor>
+				<ip>193.170.89.157</ip>
+			</contributor>
+			<text xml:space="preserve">'''Erwin Schr&amp;ouml;dinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]].   [[Nobel Prize]] Winner 1933 &lt;br&gt;
+He is the owner of [[Schrodingers cat|Schrödinger's cat]].
+
+Born Aug.12, 1887 Vienna (Erdberg), &lt;br&gt;
+Father: Rudolf Schr&amp;ouml;dinger, factory owner, Botanist&lt;br&gt;
+Mother: Georgine Emilia Brenda, d. o Alexander Bauer,  Professor of Chemistry,k.u.k. [[Technische Hochschule]] Vienna]]&lt;br&gt;
+1898 Akademisches Gymnasium&lt;br&gt;
+1906-10 Studied in Vienna ([[Franz Serafin Exner]] 
+(1849 - 1926), [[Fritz Hasen&amp;ouml;hrl
+]] (1874 - 1915), experimental work with [[Kohlrausch]]) &lt;br&gt;
+1911 Assistent of Exner&lt;br&gt;
+1914 Habilitation &lt;br&gt;
+1914-18 war participation (G&amp;ouml;rz, Duino, Sistiana,Prosecco,Vienna)&lt;br&gt;
+1920, April 6, marries Annemarie Bertel.&lt;br&gt;
+1920 Assistent of [[Max Wien]], Jena&lt;br&gt;
+1920 Sept. a.o.Prof. Stuttgart&lt;br&gt;
+1921  o.Prof. Breslau, &lt;br&gt;
+1922 Z&amp;uuml;rich&lt;br&gt;
+1926 Annalen der Physik :  &quot;Quantisierung als Eigenwertproblem&quot;.(Quantisation as Eigen Value Problem). Schr&amp;ouml;dingers wave-mechanics/-equation&lt;br&gt;
+1927 Follows [[Max Planck]] in Berlin Humboldt-University&lt;br&gt;
+1933  term limited: Fellow of Magdalen College, University of Oxford
+1933 Nobel Prize together with [[Paul Dirac|Paul Adrien Maurice Dirac]]&lt;br&gt;
+1934 Lectures at Princeton University (permanent position not accepted)&lt;br&gt;
+1936 University [[Graz]],[Austria]]&lt;br&gt;
+1938 Problems due to leaving Germany 1933 and known preferences, search warrants, investigations&lt;br&gt;
+Via Italy/Swizzerland to [[Oxford]] - university Ghent. &lt;br&gt;
+Advanced Studies in Dublin, Director of the School for Theoretical Physics.
+Further (50) publications on various topics. Attempts towards a unified field theory, &lt;br&gt;
+1944 What is Life? (Negentropie, concepts for genetic code) &lt;br&gt;
+In Dublin  until retirement 1955. &lt;br&gt;
+Returns to Vienna (chair ad personam).&lt;br&gt; 
+In a main lecture during the World Power Conference he refuses to speak on nuclear energy because of his scepticism about it. (he gave a philosophical lecture).&lt;br&gt;
+Died: Jan 4, 1961 in Vienna (high age tuberculosis). Left widow Anny. Buried in Alpbach ([[Austria]]).&lt;br&gt;
+
+
+== External Links ==
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, &lt;br&gt; http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+http://www.zbp.univie.ac.at/schrodinger/bio/bio1.htm &lt;br&gt;
+http://www.nobel.se/physics/laureates/1933/schrodinger-bio.html &lt;br&gt;</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>361695</id>
+			<timestamp>2002-10-16T03:05:39Z</timestamp>
+			<contributor>
+				<username>Tim Starling</username>
+				<id>4635</id>
+			</contributor>
+			<minor />
+			<comment>lots of minor changes - still needs work</comment>
+			<text xml:space="preserve">'''Erwin Schr&amp;ouml;dinger''' ([[August 12]], [[1887]] - [[January 4]], [[1961]]) was an [[Austria|Austrian]] [[physicist]] famous for his contributions to [[quantum mechanics]], especially the [[Schrodinger equation|Schr&amp;ouml;dinger equation]].   [[Nobel Prize]] Winner 1933 &lt;br&gt;
+He proposed the [[Schrodingers cat|Schrödinger's cat]] thought experiment.
+
+Born Aug.12, [[1887]] Vienna (Erdberg), &lt;br&gt;
+Father: Rudolf Schr&amp;ouml;dinger, factory owner, Botanist&lt;br&gt;
+Mother: Georgine Emilia Brenda, d. o Alexander Bauer,  Professor of Chemistry,k.u.k. [[Technische Hochschule]] Vienna]]&lt;br&gt;
+[[1898]] Akademisches Gymnasium&lt;br&gt;
+[[1906]]-[[1910|10]] Studied in Vienna ([[Franz Serafin Exner]] 
+([[1849]] - [[1926]]), [[Fritz Hasen&amp;ouml;hrl
+]] ([[1874]] - [[1915]]), experimental work with [[Kohlrausch]]) &lt;br&gt;
+[[1911]] Assistant to Exner&lt;br&gt;
+[[1914]] Habilitation &lt;br&gt;
+[[1914]]-[[1918|18]] war participation (G&amp;ouml;rz, Duino, Sistiana,Prosecco,Vienna)&lt;br&gt;
+[[1920]], April 6, marries Annemarie Bertel.&lt;br&gt;
+[[1920]] Assistant to [[Max Wien]], Jena&lt;br&gt;
+[[1920]] Sept. a.o.Prof. Stuttgart&lt;br&gt;
+[[1921]]  o.Prof. Breslau, &lt;br&gt;
+[[1922]] Z&amp;uuml;rich&lt;br&gt;
+[[1926]] Annalen der Physik :  &quot;Quantisierung als Eigenwertproblem&quot;.(Quantisation as Eigen Value Problem). Schr&amp;ouml;dingers wave-mechanics/-equation&lt;br&gt;
+[[1927]] Follows [[Max Planck]] in Berlin Humboldt-University&lt;br&gt;
+[[1933]]  term limited: Fellow of Magdalen College, University of Oxford
+[[1933]] Nobel Prize together with [[Paul Dirac|Paul Adrien Maurice Dirac]]&lt;br&gt;
+[[1934]] Lectures at Princeton University (permanent position not accepted)&lt;br&gt;
+[[1936]] University [[Graz]],[Austria]]&lt;br&gt;
+[[1938]] Problems due to leaving Germany [[1933]] and known preferences, search warrants, investigations&lt;br&gt;
+Via Italy/Switzerland to [[Oxford]] - university Ghent. &lt;br&gt;
+Advanced Studies in Dublin, Director of the School for Theoretical Physics.
+Further (50) publications on various topics. Attempts towards a unified field theory, &lt;br&gt;
+[[1944]] What is Life? (Negentropie, concepts for genetic code) &lt;br&gt;
+In Dublin  until retirement [[1955]]. &lt;br&gt;
+Returns to Vienna (chair ad personam).&lt;br&gt; 
+At an important lecture during the World Power Conference he refuses to speak on nuclear energy because of his scepticism about it (he gave a philosophical lecture instead).&lt;br&gt;
+Died: Jan 4, [[1961]] in Vienna, aged 73 (tuberculosis). Left widow Anny. Buried in Alpbach ([[Austria]]).&lt;br&gt;
+
+
+== External Links ==
+* O'Connor, Robertson, &quot;&lt;nowiki&gt;MacTutor&lt;/nowiki&gt; biography of Erwin Schr&amp;ouml;dinger&quot;, &lt;br&gt; http://www-groups.dcs.st-andrews.ac.uk/~history/Mathematicians/Schrodinger.html
+
+http://www.zbp.univie.ac.at/schrodinger/bio/bio1.htm (in German)&lt;br&gt;
+http://www.nobel.se/physics/laureates/1933/schrodinger-bio.html &lt;br&gt;</text>
+			<sha1 />
+		</revision>
+	</page>
+	<page>
+		<title>Episome</title>
+		<ns>0</ns>
+		<id>9944</id>
+		<redirect title="Plasmid" />
+		<revision>
+			<id>15907794</id>
+			<timestamp>2002-02-25T15:43:11Z</timestamp>
+			<contributor>
+				<username>Conversion script</username>
+				<id>0</id>
+			</contributor>
+			<minor />
+			<comment>Automated conversion</comment>
+			<text xml:space="preserve">#REDIRECT [[plasmid]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>113624930</id>
+			<timestamp>2007-03-08T18:23:30Z</timestamp>
+			<contributor>
+				<ip>129.22.166.188</ip>
+			</contributor>
+			<comment>[[WP:AES|←]]Redirected page to [[Plasmid#Episomes]]
+			</comment>
+			<text xml:space="preserve">#REDIRECT [[plasmid#Episomes]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>358236155</id>
+			<timestamp>2010-04-25T17:18:32Z</timestamp>
+			<contributor>
+				<username>Im.a.lumberjack</username>
+				<id>1134689</id>
+			</contributor>
+			<comment>it makes no sense to redirect to a footnote section
+			</comment>
+			<text xml:space="preserve">#REDIRECT [[plasmid]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>423877586</id>
+			<timestamp>2011-04-13T16:13:07Z</timestamp>
+			<contributor>
+				<username>Rich Farmbrough</username>
+				<id>82835</id>
+			</contributor>
+			<comment>[[WP:AES|←]]Redirected page to [[Plasmid#Episomes]]
+			</comment>
+			<text xml:space="preserve">#REDIRECT [[Plasmid#Episomes]]</text>
+			<sha1 />
+		</revision>
+	</page>
+	<page>
+		<title>EasyWriter</title>
+		<ns>0</ns>
+		<id>9945</id>
+		<revision>
+			<id>302943</id>
+			<timestamp>2002-02-25T15:43:11Z</timestamp>
+			<contributor>
+				<username>Conversion script</username>
+				<id>0</id>
+			</contributor>
+			<minor />
+			<comment>Automated conversion</comment>
+			<text xml:space="preserve">EasyWriter is a [[word processor]] released when the IBM PC was announced in 1981?; written by Capn Software, I believe, which also produced a version of [[Forth]]; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably selected by [[IBM]] in its rush to introduce the IBM PC.
+</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>942149</id>
+			<timestamp>2002-09-21T13:00:24Z</timestamp>
+			<contributor>
+				<username>Hephaestos</username>
+				<id>3628</id>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">EasyWriter is a [[word processor]] released when the IBM PC was announced in 1981?; written by Capn Software, which also produced a version of [[Forth]]; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>1194061</id>
+			<timestamp>2003-05-20T10:34:00Z</timestamp>
+			<contributor>
+				<username>Tim Starling</username>
+				<id>4635</id>
+			</contributor>
+			<minor />
+			<comment>copyedit</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+      EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>1570882</id>
+			<timestamp>2003-07-25T21:33:47Z</timestamp>
+			<contributor>
+				<username>Dmsar</username>
+				<id>13821</id>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>4948593</id>
+			<timestamp>2003-10-15T22:17:34Z</timestamp>
+			<contributor>
+				<username>Finlay McWalter</username>
+				<id>22619</id>
+			</contributor>
+			<minor />
+			<comment>forth disambig</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>5578978</id>
+			<timestamp>2004-08-01T14:19:12Z</timestamp>
+			<contributor>
+				<ip>63.201.32.110</ip>
+			</contributor>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as WordStar, which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+[[Category:Word processors]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>6995911</id>
+			<timestamp>2004-09-01T02:25:26Z</timestamp>
+			<contributor>
+				<username>Vanieter</username>
+				<id>14761</id>
+			</contributor>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+[[Category:Word processors]]
+
+{{msg:stub}}</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>10068689</id>
+			<timestamp>2004-10-31T00:25:20Z</timestamp>
+			<contributor>
+				<username>Neutrality</username>
+				<id>68411</id>
+			</contributor>
+			<minor />
+			<comment>{{compu-stub}}</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+{{compu-stub}}
+[[Category:Word processors]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>12462682</id>
+			<timestamp>2005-02-08T15:35:22Z</timestamp>
+			<contributor>
+				<username>HappyDog</username>
+				<id>16620</id>
+			</contributor>
+			<minor />
+			<comment>software stub</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+{{compu-soft-stub}}
+[[Category:Word processors]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>12624404</id>
+			<timestamp>2005-04-18T04:03:05Z</timestamp>
+			<contributor>
+				<username>Wernher</username>
+				<id>19431</id>
+			</contributor>
+			<minor />
+			<comment>cat</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+{{compu-soft-stub}}
+[[Category:DOS software]]
+[[Category:Word processors]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>15907795</id>
+			<timestamp>2005-04-21T19:02:00Z</timestamp>
+			<contributor>
+				<username>Minghong</username>
+				<id>110454</id>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+==See also==
+*[[List of word processors]]
+*[[Comparison of word processors]]
+
+{{compu-soft-stub}}
+[[Category:DOS software]]
+[[Category:Word processors]]</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>27496839</id>
+			<timestamp>2005-11-06T02:40:16Z</timestamp>
+			<contributor>
+				<username>AxelBoldt</username>
+				<id>2</id>
+			</contributor>
+			<comment>second meaning</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+==See also==
+*[[List of word processors]]
+*[[Comparison of word processors]]
+
+{{compu-soft-stub}}
+[[Category:DOS software]]
+[[Category:Word processors]]
+
+
+
+----
+
+'''EasyWriter''' is a [[style guide]] for the [[English language]], written by Andrea A. Lunsford. It includes information about [[grammar]], usage, style and [[citation|citation formats]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>28065440</id>
+			<timestamp>2005-11-11T23:01:17Z</timestamp>
+			<contributor>
+				<username>Jkruis</username>
+				<id>532499</id>
+			</contributor>
+			<minor />
+			<comment>removed dead link to comparison</comment>
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Capn Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+==See also==
+*[[List of word processors]]
+
+{{compu-soft-stub}}
+[[Category:DOS software]]
+[[Category:Word processors]]
+
+
+
+----
+
+'''EasyWriter''' is a [[style guide]] for the [[English language]], written by Andrea A. Lunsford. It includes information about [[grammar]], usage, style and [[citation|citation formats]].</text>
+			<sha1 />
+		</revision>
+		<revision>
+			<id>51730982</id>
+			<timestamp>2006-05-05T20:17:46Z</timestamp>
+			<contributor>
+				<username>Talamus</username>
+				<id>1174403</id>
+			</contributor>
+			<minor />
+			<text xml:space="preserve">'''EasyWriter''' is a [[word processor]] released when the [[IBM PC]] was announced in [[1981]]. It was written by Cap'n Software, which also produced a version of [[Forth programming language|Forth]] &amp;mdash; see Byte Magazine, January, 1982, p. 62.
+
+EasyWriter was not received well and was soon replaced by better programs, such as [[WordStar]], which was ported from [[CP/M]]. EasyWriter was probably hastily selected by [[International Business Machines|IBM]] because of its rush to introduce the IBM [[Personal computer|PC]].
+
+==See also==
+*[[List of word processors]]
+
+{{compu-soft-stub}}
+[[Category:DOS software]]
+[[Category:Word processors]]
+
+
+
+----
+
+'''EasyWriter''' is a [[style guide]] for the [[English language]], written by Andrea A. Lunsford. It includes information about [[grammar]], usage, style and [[citation|citation formats]].</text>
+			<sha1 />
+		</revision>
+	</page>
+</mediawiki>
