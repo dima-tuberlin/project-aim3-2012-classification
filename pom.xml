@@ -8,8 +8,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>AIM 3 Project: Online Classification</name>
-	<url>http://code.google.com/p/edu-tub-aim3-oc</url>
+	<name>Online Classification Parent</name>
+	<url>https://github.com/dima-tuberlin/project-aim3-2012-classification</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -157,7 +157,7 @@
 			</activation>
 			<modules>
 				<module>online-classification-pacts</module>
-				<module>online-classification-wikistream</module>
+				<module>online-classification-stream</module>
 				<module>socket.io-java-client</module>
 			</modules>
 		</profile>

@@ -1,0 +1,3 @@
+[submodule "online-classification-stream"]
+	path = online-classification-stream
+	url = https://github.com/flo-f/wikistream.git
