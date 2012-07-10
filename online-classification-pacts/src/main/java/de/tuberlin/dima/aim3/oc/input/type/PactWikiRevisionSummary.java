@@ -19,17 +19,34 @@ public class PactWikiRevisionSummary extends BaseValue {
 
   private double averageTextLength;
 
+  private double averageTextLengthChange;
+
+  private int minTextLengthChange;
+
+  private int minTextLengthChangeRevisionId;
+
+  private int maxTextLengthChange;
+
+  private int maxTextLengthChangeRevisionId;
+
   public PactWikiRevisionSummary() {
     super();
   }
 
   public PactWikiRevisionSummary(WikiPage page, int numberOfRevisions,
-      double averageTextLength) {
+      double averageTextLength, double averageTextLengthChange,
+      int minTextLengthChange, int minTextLengthChangeRevisionId,
+      int maxTextLengthChange, int maxTextLengthChangeRevisionId) {
     super();
     this.pageId = ParserUtil.parseInt(page.getId());
     this.pageTitle = page.getTitle();
     this.numberOfRevisions = numberOfRevisions;
     this.averageTextLength = averageTextLength;
+    this.averageTextLengthChange = averageTextLengthChange;
+    this.minTextLengthChange = minTextLengthChange;
+    this.minTextLengthChangeRevisionId = minTextLengthChangeRevisionId;
+    this.maxTextLengthChange = maxTextLengthChange;
+    this.maxTextLengthChangeRevisionId = maxTextLengthChangeRevisionId;
   }
 
   @Override
@@ -38,6 +55,11 @@ public class PactWikiRevisionSummary extends BaseValue {
     writeUTFNullSafe(out, pageTitle);
     out.writeInt(numberOfRevisions);
     out.writeDouble(averageTextLength);
+    out.writeDouble(averageTextLengthChange);
+    out.writeInt(minTextLengthChange);
+    out.writeInt(minTextLengthChangeRevisionId);
+    out.writeInt(maxTextLengthChange);
+    out.writeInt(maxTextLengthChangeRevisionId);
   }
 
   @Override
@@ -46,6 +68,11 @@ public class PactWikiRevisionSummary extends BaseValue {
     pageTitle = readUTFNullSafe(in);
     numberOfRevisions = in.readInt();
     averageTextLength = in.readDouble();
+    averageTextLengthChange = in.readDouble();
+    minTextLengthChange = in.readInt();
+    minTextLengthChangeRevisionId = in.readInt();
+    maxTextLengthChange = in.readInt();
+    maxTextLengthChangeRevisionId = in.readInt();
   }
 
   @Override
@@ -72,6 +99,26 @@ public class PactWikiRevisionSummary extends BaseValue {
 
   public double getAverageTextLength() {
     return averageTextLength;
+  }
+
+  public double getAverageTextLengthChange() {
+    return averageTextLengthChange;
+  }
+
+  public int getMinTextLengthChange() {
+    return minTextLengthChange;
+  }
+
+  public int getMinTextLengthChangeRevisionId() {
+    return minTextLengthChangeRevisionId;
+  }
+
+  public int getMaxTextLengthChange() {
+    return maxTextLengthChange;
+  }
+
+  public int getMaxTextLengthChangeRevisionId() {
+    return maxTextLengthChangeRevisionId;
   }
 
 }

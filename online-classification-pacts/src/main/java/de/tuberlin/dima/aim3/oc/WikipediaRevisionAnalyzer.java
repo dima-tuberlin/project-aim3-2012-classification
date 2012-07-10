@@ -84,31 +84,79 @@ public class WikipediaRevisionAnalyzer implements PlanAssembler,
           RevisionCSVOutFormat.SEPARATOR_CHAR);
       // see number of tokens created in
       // WikipediaDumpParser$RevisionCSVOutFormat#writeRecord
-      if (tokenizer.countTokens() != 10) {
-        LOG.warn("Ignoring line with unexpected number of tokens ("
+      int numberOfExpectedTokens = 10;
+      if (tokenizer.countTokens() < numberOfExpectedTokens - 1) {
+        LOG.debug("Ignoring line with unsufficient number of tokens ("
             + tokenizer.countTokens() + "): '" + inputLine + "'");
         return false;
       }
 
-      String pageId = nullSafeToken(tokenizer);
+      Integer pageId;
+      try {
+        pageId = ParserUtil.parseInt(nullSafeToken(tokenizer));
+      } catch (Throwable e) {
+        LOG.debug("Ignoring line because it does not start with a number (pageId): '"
+            + inputLine + "'");
+        return false;
+      }
       String pageTitle = nullSafeToken(tokenizer);
       String revisionId = nullSafeToken(tokenizer);
       String revisionTimestamp = nullSafeToken(tokenizer);
       String userid = nullSafeToken(tokenizer);
       String username = nullSafeToken(tokenizer);
       String userip = nullSafeToken(tokenizer);
-      Integer textLength = ParserUtil.parseInt(nullSafeToken(tokenizer));
-      String comment = nullSafeToken(tokenizer);
-      Boolean minorChange = ParserUtil.parseBoolean(nullSafeToken(tokenizer));
+      Integer textLength;
+      try {
+        textLength = ParserUtil.parseInt(nullSafeToken(tokenizer));
+      } catch (Throwable e) {
+        LOG.debug("Ignoring line because textLength cannot be parsed: '"
+            + inputLine + "'");
+        return false;
+      }
+
+      String comment;
+      Boolean minorChange;
+      if (tokenizer.countTokens() > numberOfExpectedTokens) {
+        LOG.debug("Trying to parse line with unexpected number of tokens ("
+            + tokenizer.countTokens()
+            + ") as using a separator char in its comment: '" + inputLine + "'");
+        comment = "";
+        for (int i = 0; i <= tokenizer.countTokens() - numberOfExpectedTokens; i++) {
+          comment += nullSafeToken(tokenizer);
+        }
+        LOG.info("Read comment with separator char: '" + comment + "'");
+
+        minorChange = parseMinorChange(inputLine, tokenizer);
+      } else if (tokenizer.countTokens() == numberOfExpectedTokens - 1) {
+        // last element is missing - guess minorChange to be false
+        comment = nullSafeToken(tokenizer);
+        minorChange = false;
+        LOG.debug("Guessed minorChange to be " + minorChange);
+      } else {
+        comment = nullSafeToken(tokenizer);
+        minorChange = parseMinorChange(inputLine, tokenizer);
+      }
 
       WikiUser user = new WikiUser(username, userid, userip);
-      WikiRevision revision = new WikiRevision(pageId, pageTitle, revisionId,
-          revisionTimestamp, user, minorChange, comment, textLength);
+      WikiRevision revision = new WikiRevision(pageId.toString(), pageTitle,
+          revisionId, revisionTimestamp, user, minorChange, comment, textLength);
 
-      target.setField(0, new PactInteger(ParserUtil.parseInt(pageId)));
+      target.setField(0, new PactInteger(pageId));
       target.setField(1, new PactWikiRevision(revision));
 
       return true;
+    }
+
+    private Boolean parseMinorChange(String inputLine, StringTokenizer tokenizer) {
+      Boolean minorChange;
+      try {
+        minorChange = ParserUtil.parseBoolean(nullSafeToken(tokenizer));
+      } catch (Throwable e) {
+        LOG.debug("Used default value of false for minorChange: '" + inputLine
+            + "'");
+        minorChange = false;
+      }
+      return minorChange;
     }
 
     private String nullSafeToken(StringTokenizer tokenizer) {
@@ -127,6 +175,12 @@ public class WikipediaRevisionAnalyzer implements PlanAssembler,
         throws Exception {
       int numberOfRevisions = 0;
       double averageTextLength = 0;
+      double averageTextLengthChange = 0;
+      int lastTextLength = 0;
+      int minTextLengthChange = Integer.MAX_VALUE;
+      int minTextLengthChangeRevisionId = 0;
+      int maxTextLengthChange = Integer.MIN_VALUE;
+      int maxTextLengthChangeRevisionId = 0;
       WikiPage page = null;
 
       while (records.hasNext()) {
@@ -135,20 +189,58 @@ public class WikipediaRevisionAnalyzer implements PlanAssembler,
             .getRevision();
 
         if (page == null) {
-          page = new WikiPage(revision.getPage().getId(), revision.getPage()
-              .getTitle());
+          page = new WikiPage(revision.getPage().getTitle(), revision.getPage()
+              .getId());
         }
 
-        averageTextLength = averageTextLength
-            * (numberOfRevisions / (numberOfRevisions + 1))
-            + (revision.getTextLength() / (numberOfRevisions + 1));
+        int textLengthChange = getUnsignedTextLengthChange(lastTextLength,
+            revision.getTextLength());
+        if (textLengthChange < minTextLengthChange) {
+          minTextLengthChange = textLengthChange;
+          minTextLengthChangeRevisionId = ParserUtil.parseInt(revision.getId());
+        }
+        if (textLengthChange > maxTextLengthChange) {
+          maxTextLengthChange = textLengthChange;
+          maxTextLengthChangeRevisionId = ParserUtil.parseInt(revision.getId());
+        }
+        lastTextLength = revision.getTextLength();
+
+        averageTextLengthChange = calculateAvgTextLengthChange(
+            numberOfRevisions, averageTextLengthChange, textLengthChange);
+
+        averageTextLength = calculateAvgTextLength(numberOfRevisions,
+            averageTextLength, revision.getTextLength());
+
         numberOfRevisions++;
       }
 
       PactWikiRevisionSummary wikiRevisionSummary = new PactWikiRevisionSummary(
-          page, numberOfRevisions, averageTextLength);
+          page, numberOfRevisions, averageTextLength, averageTextLengthChange,
+          minTextLengthChange, minTextLengthChangeRevisionId,
+          maxTextLengthChange, maxTextLengthChangeRevisionId);
       PactRecord record = new PactRecord(wikiRevisionSummary);
       out.collect(record);
+    }
+
+    int getUnsignedTextLengthChange(int lastTextLength, int revisionTextLength) {
+      int textLengthChange = revisionTextLength - lastTextLength;
+      if (textLengthChange < 0) {
+        textLengthChange = -1 * textLengthChange;
+      }
+      return textLengthChange;
+    }
+
+    double calculateAvgTextLength(double numberOfRevisions,
+        double averageTextLength, double revisionTextLength) {
+      return averageTextLength * (numberOfRevisions / (numberOfRevisions + 1))
+          + (revisionTextLength / (numberOfRevisions + 1));
+    }
+
+    double calculateAvgTextLengthChange(double numberOfRevisions,
+        double averageTextLengthChange, double textLengthChange) {
+      return averageTextLengthChange
+          * (numberOfRevisions / (numberOfRevisions + 1))
+          + (textLengthChange / (numberOfRevisions + 1));
     }
   }
 
@@ -170,6 +262,16 @@ public class WikipediaRevisionAnalyzer implements PlanAssembler,
       this.buffer.append(summary.getNumberOfRevisions());
       this.buffer.append(';');
       this.buffer.append(summary.getAverageTextLength());
+      this.buffer.append(';');
+      this.buffer.append(summary.getAverageTextLengthChange());
+      this.buffer.append(';');
+      this.buffer.append(summary.getMinTextLengthChange());
+      this.buffer.append(';');
+      this.buffer.append(summary.getMinTextLengthChangeRevisionId());
+      this.buffer.append(';');
+      this.buffer.append(summary.getMaxTextLengthChange());
+      this.buffer.append(';');
+      this.buffer.append(summary.getMaxTextLengthChangeRevisionId());
       this.buffer.append('\n');
 
       byte[] bytes = this.buffer.toString().getBytes();
