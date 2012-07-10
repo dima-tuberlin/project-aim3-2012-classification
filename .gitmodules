@@ -1,3 +1,6 @@
 [submodule "online-classification-stream"]
 	path = online-classification-stream
 	url = https://github.com/flo-f/wikistream.git
+[submodule "socket.io-java-client"]
+	path = socket.io-java-client
+	url = https://github.com/flo-f/socket.io-java-client.git
