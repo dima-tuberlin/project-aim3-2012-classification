@@ -1,3 +1,7 @@
+.project
+.classpath
+.settings/
+target/
 online-classification-pacts/.project
 online-classification-pacts/.classpath
 online-classification-pacts/.settings/
