@@ -5,7 +5,7 @@ import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.tuberlin.dima.aim3.oc.WikipediaRevisionAnalyzer.PageRevisionCounter;
+import de.tuberlin.dima.aim3.oc.WikipediaRevisionStatisticsCreator.PageRevisionCounter;
 
 /**
  * Tests the class {@link PageRevisionCounter}.

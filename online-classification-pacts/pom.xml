@@ -134,20 +134,20 @@
 						</configuration>
 					</execution>
 
-					<!-- WikipediaDumpAnalyzer -->
+					<!-- WikipediaRevisionStatisticsCreator -->
 					<execution>
-						<id>WikipediaDumpAnalyzer</id>
+						<id>WikipediaRevisionStatisticsCreator</id>
 						<phase>package</phase>
 						<goals>
 							<goal>jar</goal>
 						</goals>
 
 						<configuration>
-							<classifier>WikipediaDumpAnalyzer</classifier>
+							<classifier>WikipediaRevisionStatisticsCreator</classifier>
 
 							<archive>
 								<manifestEntries>
-									<Pact-Assembler-Class>de.tuberlin.dima.aim3.oc.WikipediaRevisionAnalyzer</Pact-Assembler-Class>
+									<Pact-Assembler-Class>de.tuberlin.dima.aim3.oc.WikipediaRevisionStatisticsCreator</Pact-Assembler-Class>
 								</manifestEntries>
 							</archive>
 

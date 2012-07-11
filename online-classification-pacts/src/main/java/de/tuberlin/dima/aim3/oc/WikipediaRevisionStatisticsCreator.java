@@ -29,18 +29,20 @@ import eu.stratosphere.pact.common.type.PactRecord;
 import eu.stratosphere.pact.common.type.base.PactInteger;
 
 /**
- * PACT plan that analyzes revisions of CSV parsed Wikipedia XML dumps.
+ * PACT plan that creates revision statistics for every Wikipedia page.
+ * 
+ * It operates on top of CSV parsed Wikipedia XML dumps.
  * 
  * @see WikipediaDumpParser
  * 
  * @author Florian Feigenbutz <florian.feigenbutz@campus.tu-berlin.de>
  * 
  */
-public class WikipediaRevisionAnalyzer implements PlanAssembler,
+public class WikipediaRevisionStatisticsCreator implements PlanAssembler,
     PlanAssemblerDescription {
 
   private static final Log LOG = LogFactory
-      .getLog(WikipediaRevisionAnalyzer.class);
+      .getLog(WikipediaRevisionStatisticsCreator.class);
 
   @Override
   public String getDescription() {

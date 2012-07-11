@@ -9,7 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import de.tuberlin.dima.aim3.oc.WikipediaDumpParser.RevisionCSVOutFormat;
-import de.tuberlin.dima.aim3.oc.WikipediaRevisionAnalyzer.RevisionCSVInFormat;
+import de.tuberlin.dima.aim3.oc.WikipediaRevisionStatisticsCreator.RevisionCSVInFormat;
 import de.tuberlin.dima.aim3.oc.input.type.PactWikiRevision;
 import de.tuberlin.dima.aim3.oc.input.type.WikiRevision;
 import eu.stratosphere.nephele.configuration.Configuration;
